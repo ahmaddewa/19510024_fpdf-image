@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 22, 2021 at 09:38 AM
+-- Generation Time: Jun 22, 2021 at 03:03 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.4.16
 
@@ -43,9 +43,9 @@ CREATE TABLE `mobil` (
 --
 
 INSERT INTO `mobil` (`id`, `nama_mobil`, `nopol`, `warna`, `jumlah_kursi`, `tahun`, `merk`, `gambar`) VALUES
-(23, 'Taruna', 'N 1678 SU', 'Silver', 7, 1999, 'Daihatsu', 'taruna_1.jpg'),
-(24, 'Avanza', 'N 1789 SK', 'Hitam', 7, 2020, 'Toyota', 'avanza.jpg'),
-(25, 'Xenia', 'N 2020 SO', 'Silver', 7, 2020, 'Daihatsu', 'xenia.jpg');
+(33, 'Avanza', 'L 1891 QW', 'Silver', 7, 2008, 'Toyota', 'avanza2.jpg'),
+(34, 'Xenia', 'L 1678 SK', 'Putih', 7, 2021, 'Daihatsu', 'xenia2.jpg'),
+(35, 'Taruna', 'N 1678 SU', 'Silver', 7, 1999, 'Daihatsu', 'taruna_13.jpg');
 
 -- --------------------------------------------------------
 
@@ -162,7 +162,7 @@ ALTER TABLE `sopir`
 -- AUTO_INCREMENT for table `mobil`
 --
 ALTER TABLE `mobil`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT for table `pegawai`
